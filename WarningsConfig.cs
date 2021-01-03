@@ -27,11 +27,13 @@ namespace AdminWarnings
             AnnouceWarningKicksAndBansServerWide = true;
             AnnouceWarningsServerWide = false;
             WarningPoints = new List<WarningPoint> {
-                new WarningPoint{ WarningsToTrigger = 3, KickPlayer = true, BanPlayer = false, BanLengthSeconds = 0, ConsoleCommand = "" },
-                new WarningPoint{ WarningsToTrigger = 4, KickPlayer = false, BanPlayer = true, BanLengthSeconds = 600, ConsoleCommand = "" },
-                new WarningPoint{ WarningsToTrigger = 5, KickPlayer = false, BanPlayer = true, BanLengthSeconds = 1800, ConsoleCommand = "" },
-                new WarningPoint{ WarningsToTrigger = 6, KickPlayer = false, BanPlayer = true, BanLengthSeconds = 86400, ConsoleCommand = "" },
-                new WarningPoint{ WarningsToTrigger = 7, KickPlayer = false, BanPlayer = true, BanLengthSeconds = 432000, ConsoleCommand = "" }
+                new WarningPoint{ WarningsToTrigger = 1, KickPlayer = false, BanPlayer = true, BanLengthSeconds = 3600, ConsoleCommand = "" },
+                new WarningPoint{ WarningsToTrigger = 2, KickPlayer = false, BanPlayer = true, BanLengthSeconds = 10800, ConsoleCommand = "" },
+                new WarningPoint{ WarningsToTrigger = 3, KickPlayer = false, BanPlayer = true, BanLengthSeconds = 86400, ConsoleCommand = "" },
+                new WarningPoint{ WarningsToTrigger = 4, KickPlayer = false, BanPlayer = true, BanLengthSeconds = 172800, ConsoleCommand = "" },
+                new WarningPoint{ WarningsToTrigger = 5, KickPlayer = false, BanPlayer = true, BanLengthSeconds = 259200, ConsoleCommand = "" },
+                new WarningPoint{ WarningsToTrigger = 6, KickPlayer = false, BanPlayer = true, BanLengthSeconds = 604800, ConsoleCommand = "" },
+                new WarningPoint{ WarningsToTrigger = 7, KickPlayer = false, BanPlayer = true, BanLengthSeconds = 9999999999, ConsoleCommand = "" }
             };
             PlayerWarnings = new List<PlayerWarning>();
         }
