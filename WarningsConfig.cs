@@ -53,7 +53,7 @@ namespace AdminWarnings
         [XmlAttribute]
         public int Warnings;
         [XmlAttribute]
-        public DateTime DateAdded;
+        public DateTime DateAdded;hg
     }
 
 }
